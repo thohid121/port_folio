@@ -1,0 +1,108 @@
+body{
+margin:0;
+padding:0;
+font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #454545;
+    height: 70px;
+}
+.image img{
+    width:70px;
+    border-radius: 50%;
+}
+
+.item{
+    display: flex;
+    list-style-type: none;
+    
+}
+.thohid{
+   padding: 50px;
+   color:white;
+   
+}
+.thohid a
+{
+color:white;
+text-decoration:none;
+}
+
+.thohid a:hover
+{
+color:crimson;
+}
+
+section{
+    width: 100%;
+    height: 450px;
+    background-color: #008080;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.photo img{
+    border-radius: 50%;
+    width:300px;
+}
+.btn{
+     padding: 15px 30px;
+     background-color: #160707;
+     border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 20px;
+        
+}
+
+.skil{
+    text-align: center;
+    color:white;
+    background-color: #454545;
+    width: 100%;
+    height: 50px;
+    margin-top: -25px;
+    padding: 15px;
+}
+
+.Skil-con{
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #454545;
+}
+
+.skill-item{
+    width: 20%;
+    border-radius: 5%;
+    background-color: #160707;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 4px 8px 16px rgb(146, 129, 129);
+}
+
+.skill-item img{
+    width:200px;
+    border:#160707;
+    background-color: white;
+    border-radius: 5%;
+}
+.about{
+    background-color:#999999;
+    text-align: justify;
+    padding: 50px;
+  
+}
+.about h1{
+    text-align: center;
+}
+.about h2{
+    display: inline;
+}
